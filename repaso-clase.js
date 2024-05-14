@@ -35,7 +35,8 @@ class personaC{
  }
 }
 
-// crear una herencia de la clase persona con keyboards extends 
+// crear una herencia de la clase persona con keyboards extends se crean
+// los metodos de la personaC
 
 class trabajadorC extends personaC{
   constructor(nombre,apellido,profesion){
