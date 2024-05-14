@@ -35,3 +35,15 @@ class personaC{
  }
 }
 
+// crear una herencia de la clase persona con keyboards extends 
+
+class trabajadorC extends personaC{
+  constructor(nombre,apellido,profesion){
+    super(nombre,apellido);
+    this.profesion=profesion;
+  }
+decirProfesion(){
+  return ´yo trabajo en ${this.profesion}´; 
+}
+
+}
